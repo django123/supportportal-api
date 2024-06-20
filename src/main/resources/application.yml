@@ -10,9 +10,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/supportportal?serverTimezone=Europe/Paris
-    password:
-    username: root
+    url: mysql://bdfb068b0816f8:b3b14f5e@eu-cluster-west-01.k8s.cleardb.net/heroku_166b63083c3c2df?reconnect=true
+    #url: jdbc:mysql://localhost:3306/supportportal?serverTimezone=Europe/Paris
+    password: b3b14f5e
+    username: bdfb068b0816f8
   jpa:
     show-sql: true
     hibernate:
